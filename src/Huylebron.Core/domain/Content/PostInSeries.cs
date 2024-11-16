@@ -5,7 +5,7 @@ namespace Huylebron.Core.domain.Content ;
 
 [Table("PostInSeries")]
 [PrimaryKey(nameof(PostId), nameof(SeriesId))]
-public class PostSeries
+public class PostInSeries
 {
   
     public Guid PostId { get; set; }
